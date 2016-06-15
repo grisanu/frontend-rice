@@ -1,0 +1,25 @@
+.img-facebook{
+  width: 100%;
+  height: 40vh;
+}
+
+.text-headline {
+	font-family: Georgia, 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+.facebook-card {
+	height: 20vh;
+}
+
+.parent {
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.facebook-button {
+	order: 1;
+}
+
+.facebook-url {
+	order: 0;
+}

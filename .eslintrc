@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "mocha": true,
+    "node": true
+  },
+  "ecmaFeatures": {
+    "generators": true,
+    "restParams": true,
+    "spread": true
+  }
+}

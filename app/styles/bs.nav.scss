@@ -1,0 +1,24 @@
+.nav{
+  border: inherit;
+}
+
+.nav-item{
+  border: inherit;
+}
+
+.nav-link{
+  border: inherit;
+  position: relative;
+}
+
+.tab-content.tab-alt{
+  .tab-pane{
+    display:block;
+    height: 0;
+    overflow: hidden;
+    &.active{
+      height: auto;
+      overflow: visible;
+    }
+  }
+}

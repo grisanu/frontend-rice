@@ -1,0 +1,37 @@
+.item{
+  position: relative;
+  .top{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+  .bottom{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .center{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 42%;
+  }
+}
+.item-overlay{
+  position: absolute;
+  right: 0;
+  left: 0;
+  display: none;
+  &.active,
+  .item:focus,
+  .item:hover & {
+    display: block;
+  }
+  &.w-full{
+    text-align: center;
+    top: 0;
+    bottom: 0;
+  }
+}
